@@ -1,0 +1,22 @@
+This file contains a description of all the files used in this project. 
+The pre-requisite of this project are:
+The system needs to have pre-installed Python3
+Pre-installed Anaconda software.
+The following files are the dataset:
+T_raw_oura_sleep copy.csv
+T_raw_oura_activity copy.csv
+LYS_file_atest.csv
+The following jupyter files have the model code:
+T_Oura_Mark2 (actigraphy model)
+Light_Mark1  (light Model)
+The following files are the output files used in the data processing stage:
+file_name.csv
+df_sleep.csv
+df_ct.csv
+To implement the code, the following steps are needed to follow:
+Use Jupyter to open the T_Oura_Mark2 file/Light_Mark1 file.
+The dataset files need to be in the same directory as the T_Oura_Mark2 file/Light_Mark1 file.
+Each cellblock has the appropriate comments to understand the logical reason used to write the code.
+The output file will also be saved in the same location as the above files.
+T_Oura_Mark2 file and Light_Mark1 file are independent of each other. There is no prerequsite to run any jupyter file before another.
+
